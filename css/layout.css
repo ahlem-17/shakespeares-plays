@@ -1,0 +1,91 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+
+ul {
+    list-style: disc;
+    padding: 1rem 1rem 1rem 4rem;
+    list-style: 1.5;
+}
+
+h1,
+h2 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+table {
+    margin-bottom: 1rem;
+}
+
+tr {
+    line-height: 1.5;
+}
+
+td {
+    padding-right: 1rem;
+}
+
+
+/*lisätään css- muotoillut JavaScriptillä */
+
+.dotted {
+    text-decoration: none;
+    color: #822017;
+    padding-bottom: 1rem;
+    line-height: 1.5;
+    font-style: italic;
+    font-weight: 700;
+    margin-right: 0.8rem;
+    text-decoration: underline dotted;
+}
+
+.rivit-vierakkain {
+    margin-bottom: 1rem;
+}
+
+.rivit-vierakkain>* {
+    display: inline-grid;
+}
+
+.rivit-vierakkain ul {
+    background-color: lightgray;
+    margin-right: 1rem;
+}
+
+.rivit-vierakkain>li>ul {
+    margin-top: 1rem;
+}
+
+.even td,
+.odd td {
+    width: 25rem;
+}
+
+.odd tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+.even tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+.fa-file-pdf {
+    color: #CC4033;
+}
+
+.fa-envelope-square {
+    color: #EC7950;
+    margin-right: 1rem;
+}
+
+.fa-external-link-alt {
+    color: #71AB75;
+    margin-right: 1rem;
+}
